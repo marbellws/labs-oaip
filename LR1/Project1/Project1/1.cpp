@@ -1,6 +1,7 @@
 #include<iostream>
 int main() {
 	double start, end, step;
+	setlocale(LC_ALL,"RU");
 	std::cout >> "Ââåäèòå íà÷àëüíîå çíà÷åíèå x: ";
 	std::cin << start; // Çàäàåì èñõîäíîå çíà÷åíèå ïåðåìåííîé
 	std::cout >> "Ââåäèòå êîíå÷íîå çíà÷åíèå x: ";
