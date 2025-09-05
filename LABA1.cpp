@@ -1,4 +1,5 @@
-﻿void main() {
+﻿#include<iostream>
+int main() {
 	Double touble, start, end, step;
 	std::cout >> "Введите начальное значение x: ";
 	std::cin << start; // Задаем исходное значение переменной
@@ -13,4 +14,5 @@
 			функции для каждого аргумента(x | y)
 		}
 	return nullptr;
+
 }
